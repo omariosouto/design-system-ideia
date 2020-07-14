@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+// theme.colors.primary.color;
 
 export const ButtonWrapper = styled.button`
   background-color: ${({ theme, variant }) => theme.colors[variant].color};

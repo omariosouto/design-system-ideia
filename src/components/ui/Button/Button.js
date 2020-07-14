@@ -1,10 +1,10 @@
 import React from 'react';
 import { ButtonWrapper } from './styles/ButtonWrapper';
 
-function Button ({ variant }) {
+function Button ({ variant, children }) {
   return (
     <ButtonWrapper variant={variant}>
-      Bla
+      {children}
     </ButtonWrapper>
   )
 }
